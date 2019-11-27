@@ -8,8 +8,8 @@ body{
     color: #4F545F;
     margin: 0;
     padding: 0;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 240px;
+    padding-right: 240px;
 
 }
 .menuNav{
@@ -33,6 +33,11 @@ h2{
 	color: white;
 	margin-left: 20px;
 	border-radius: 7px;
+}
+
+#headerImg {
+  height: 120px;
+  padding-bottom: 100px;
 }
 
 #submitButton{
@@ -60,7 +65,7 @@ h2{
 #menu > li{
   float: left;
   padding: 5px;
-  font-size: 10px;
+  font-size: 20px;
   background-color: white;
   width: 33.3333%;
   text-align: center;
@@ -88,7 +93,7 @@ h2{
 #cate > li{
   float: left;
   padding: 5px;
-  font-size: 10px;
+  font-size: 15px;
   background-color: white;
   width: 20%;
   text-align: center;
@@ -137,12 +142,27 @@ input{
   */
   padding-left: 10px;
 }
+
+.navImg {
+  width: 150px;
+  height: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
 .histImg{
   display: block;
   width: 400px;
   height: 300px;
   margin-left: auto;
   margin-right: auto;
+  float: right;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 .karenImg{
   display: block;
@@ -157,7 +177,11 @@ input{
   width: 100%;
   align-self: center;
   text-align: justify;
-  padding: 10px;
+  font-size: 20px;
+  padding-left: 20px;
+  padding-right: 200px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 .liProducto{
   display: flex;
